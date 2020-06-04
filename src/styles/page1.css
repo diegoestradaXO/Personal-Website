@@ -1,0 +1,222 @@
+/* Main stuff */
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    font-family: 'Fjalla One', sans-serif;
+    margin-bottom: 50px;
+}
+.logo{
+    color: cornsilk;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+.page1{
+  height: 100vh;
+}
+.page2{
+  height: 100vh;
+  background: cornsilk;
+}
+.intro{
+  display: flex;
+  flex-direction: column;
+}
+.text {
+    width: auto;
+    fill: none;
+    stroke-width: 6;
+    stroke-linejoin: round;
+    stroke-dasharray: 70 330;
+    stroke-dashoffset: 0;
+    -webkit-animation: stroke 6s infinite linear;
+    justify-content: space-around;
+    align-items: center;
+    animation: stroke 6s infinite linear; }
+    .text:nth-child(5n + 1) {
+      stroke: #F2385A;
+      -webkit-animation-delay: -1.2s;
+      animation-delay: -1.2s; }
+    .text:nth-child(5n + 2) {
+      stroke: #F5A503;
+      -webkit-animation-delay: -2.4s;
+      animation-delay: -2.4s; }
+    .text:nth-child(5n + 3) {
+      stroke: #E9F1DF;
+      -webkit-animation-delay: -3.6s;
+      animation-delay: -3.6s; }
+    .text:nth-child(5n + 4) {
+      stroke: #56D9CD;
+      -webkit-animation-delay: -4.8s;
+      animation-delay: -4.8s; }
+    .text:nth-child(5n + 5) {
+      stroke: #3aa1bf;
+      -webkit-animation-delay: -6s;
+      animation-delay: -6s; }
+  
+  @-webkit-keyframes stroke {
+    100% {
+      stroke-dashoffset: -400; } }
+  @keyframes stroke {
+    100% {
+      stroke-dashoffset: -400; } }
+  /* Other stuff */
+  html,
+  body {
+    height: 100%; }
+  
+  body {
+    background: #111;
+    color: #fff; }
+  
+  .content {
+    font: 800 10.5em/1  'Open Sans', Impact; 
+    height: 70%;
+  }
+  
+  svg {
+    width: 60%;
+    margin: 0 auto 0px;
+    display: block;
+    text-transform: uppercase;
+    height: 70%;    
+  }
+.myname{
+  font-family: 'Fjalla One', sans-serif;
+  color: cornsilk;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.description{
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
+  color: cornsilk;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+  
+  /*# sourceMappingURL=style12.css.map */
+  
+  .sleek__social a {
+    text-decoration: none;
+  }
+  
+  .sleek__social {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 27%;
+    text-align: center;
+  }
+  
+  .sleek__social .btn {
+    display: inline-block;
+    background: cornsilk;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 28%;
+    margin: 5px;
+   
+            
+  }
+  
+  .sleek__social .btn::before {
+    -webkit-transition: all 0.35s cubic-bezier(0.31, -0.205, 0.43, 1.8);
+    transition: all 0.35s cubic-bezier(0.31, -0.205, 0.43, 1.8);
+    content: '';
+    width: 125%;
+    height: 125%;
+    position: absolute;
+    top: -10%;
+    left: -10%;
+  }
+  
+  .sleek__social .btn .fab {
+    -webkit-transition: all 0.35s cubic-bezier(0.31, -0.205, 0.43, 1.8);
+    transition: all 0.35s cubic-bezier(0.31, -0.205, 0.43, 1.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-size: 2.5rem;
+    line-height: 50px;
+  }
+  
+  .sleek__social .btn__sleek--inactive.facebook::before, .sleek__social .facebook.btn::before {
+    background: #3b5998;
+  }
+  
+  .sleek__social .btn__sleek--inactive.facebook .fab, .sleek__social .facebook.btn .fab {
+    color: #3b5998;
+  }
+  
+  .sleek__social .btn__sleek--inactive.twitter::before, .sleek__social .twitter.btn::before {
+    background: #3cf;
+  }
+  
+  .sleek__social .btn__sleek--inactive.twitter .fab, .sleek__social .twitter.btn .fab {
+    color: #3cf;
+  }
+  
+  .sleek__social .btn__sleek--inactive.github::before, .sleek__social .github.btn::before {
+    background: #c4302b;
+  }
+  
+  .sleek__social .btn__sleek--inactive.github .fab, .sleek__social .github.btn .fab {
+    color: #c4302b;
+  }
+  
+  .sleek__social .btn__sleek--inactive.instagram::before, .sleek__social .instagram.btn::before {
+    background: #e95950;
+  }
+  
+  .sleek__social .btn__sleek--inactive.instagram .fab, .sleek__social .instagram.btn .fab {
+    color: #e95950;
+  }
+  
+  .sleek__social .btn__sleek--inactive.linkedin::before, .sleek__social .linkedin.btn::before {
+    background: #0e76a8;
+  }
+  
+  .sleek__social .btn__sleek--inactive.linkedin .fab, .sleek__social .linkedin.btn .fab {
+    color: #0e76a8;
+  }
+  
+  .sleek__social .btn__sleek--inactive::before, .sleek__social .btn::before {
+    -webkit-transform: translate(-100%, -100%) rotate(45deg);
+            transform: translate(-100%, -100%) rotate(45deg);
+  }
+  
+  .sleek__social .btn__sleek--inactive .fab, .sleek__social .btn .fab {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  
+  .sleek__social .btn__sleek--active::before, .sleek__social .btn:focus::before, .sleek__social .btn:hover::before {
+    -webkit-transform: translate(-26%, -26%) rotate(45deg);
+            transform: translate(-26%, -26%) rotate(45deg);
+  }
+  
+  .sleek__social .btn__sleek--active .fab, .sleek__social .btn:focus .fab, .sleek__social .btn:hover .fab {
+    color: cornsilk;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  

@@ -1,0 +1,69 @@
+.page2{
+  display: flex;
+  flex-direction: column;
+}
+.self-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+.who-am-i{
+    margin: 0;
+    height: 30%;
+    font-family: 'Fjalla One', sans-serif;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;   
+  }
+  .personal-card-container{
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .personal-card-container h1{
+    font-size: 40px;
+    color: #111;
+    font-family: 'Fjalla One', sans-serif;
+  }
+  .personal-card-container p{
+    font-size: 30px;
+    color: #111;
+    font-family: 'Fjalla One', sans-serif;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+.present-img-container{
+    width: 448px;
+    height: 482px;
+    margin-left: 100px;
+  }
+.present-img{
+  width: 448px;
+  height: 482px;
+  border-radius: 40px;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  box-shadow: #111 1px 4px 49px;
+}
+.present-img:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.1);
+}
+
+
+
+.present-text{
+  text-align: center;
+  width: 100%;
+}
