@@ -28,16 +28,13 @@ function Name(){
 function Social(){
   return(
     <div class="sleek__social">
-      <a href="#" class="btn github">
+      <a href="https://github.com/diegoestradaXO" target='_blank' class="btn github">
         <i class="fab fa-github"></i>
       </a>
-      <a href="#" class="btn facebook">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="#" class="btn instagram">
+      <a href="https://www.instagram.com/diegxestrada" target='_blank' class="btn instagram">
         <i class="fab fa-instagram"></i>
       </a>
-      <a href="#" class="btn linkedin">
+      <a href="https://www.linkedin.com/in/diego-estrada-79340b157/" target='_blank' class="btn linkedin">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </div>
@@ -59,6 +56,7 @@ function Page1(){
       <NavBar/>
       <Name/>
       <Social/>
+      <a class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon="" href='#finish'></a>
     </div>
     )
 }
