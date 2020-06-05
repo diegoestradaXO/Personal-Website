@@ -32,7 +32,7 @@ function PersonalCard(){
                     sharing design ideas for me to develop.
                 </p>
                 <div class="center">
-                    <a href="diego_estrada_cv.pdf" download="hire_this_guy"> 
+                    <a href="diego_estrada_cv.pdf" download="hire_this_guy.pdf"> 
                     <button class="button" type="submit" style={buttonStyle}>Get my CV!</button>
                     </a>
                 </div>

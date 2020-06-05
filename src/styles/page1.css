@@ -18,10 +18,6 @@
 .page1{
   height: 100vh;
 }
-.page2{
-  height: 100vh;
-  background: cornsilk;
-}
 .intro{
   display: flex;
   flex-direction: column;

@@ -5,6 +5,9 @@
 .page2{
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background: cornsilk;
 }
 .self-container{
     display: flex;
@@ -28,10 +31,12 @@
     font-size: 40px;   
   }
   .personal-card-container{
-    height: 70vh;
+    min-height: 70vh;
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .personal-card-container h1{
     font-size: 40px;
@@ -42,13 +47,10 @@
     font-size: 30px;
     color: #111;
     font-family: 'Fjalla One', sans-serif;
-    margin-left: 60px;
-    margin-right: 60px;
   }
 .present-img-container{
     width: 448px;
     height: 482px;
-    margin-left: 100px;
   }
 .present-img{
   width: 448px;
@@ -67,6 +69,7 @@
 
 .present-text{
   text-align: center;
-  width: 100%;
+  width: 60%;
+
 }
 
